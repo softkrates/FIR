@@ -1,0 +1,302 @@
+@media only screen and (max-width:1024px) 
+{
+header
+{
+    width:200px;
+}
+nav
+{
+    font-size:16px;                                    
+}                                     
+nav ul
+{
+    padding-left:235px;
+}
+}
+                
+@media only screen and (max-width:800px) 
+{
+header
+{
+    margin-top:0px;
+    width:175px;
+} 
+nav
+{
+    font-size:14px;                                    
+} 
+#sub-menu ul
+{
+    background-color:rgba(0,0,0,0.8);
+} 
+#sub-menu li
+{
+    background-color:transparent;
+} 
+#sub-menu {
+    width:100%;                                                   
+}                                         
+nav ul
+{
+    width:100%;
+    margin-left:0px;
+    padding-left:210px;
+}
+nav li
+{
+    padding:0px;
+}
+nav ul:after {
+	border:none !important;
+}  
+h1 {
+    font-size:46px;
+}
+h2 {
+    font-size:40px;
+}
+h3 {
+    font-size:34px;
+}
+h4 {
+    font-size:28px;
+}
+h5 {
+    font-size:22px;
+}
+h6 {
+    font-size:18px;
+} 
+.slider_next,
+.slider_prev{
+	width:60px;
+	height:60px;
+}
+.slider_next{
+	bottom:20px;
+    background-image:url('../images/bottom-s.png');
+}
+.slider_prev{
+    top:auto;
+	bottom:100px;
+    background-image:url('../images/top-s.png');
+}  
+.page-content, .page-content-small
+{
+    width:100%;
+}
+.content
+{
+    padding-top:150px;
+}                                    
+.left-gallery
+{
+    width:50%;
+}
+.right-gallery
+{
+    width:50%;
+} 
+#google-map
+{
+    display:none;
+}
+#mobile-map
+{
+    display:block;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="date"], textarea
+{
+    border:1px solid #aa1111;
+}
+.button:hover {
+	background-color:#fff;
+    color:#000 !important;
+}                                    
+}
+@media only screen and (max-width:640px) 
+{                                                  
+header
+{
+    width:140px;
+    left:0px;
+}
+header img
+{
+    max-height:95px;
+}                                                    
+.content
+{
+    padding-top:130px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+}                                            
+h1 {
+    font-size:42px;
+}
+h2 {
+    font-size:38px;
+}
+h3 {
+    font-size:32px;
+}
+h4 {
+    font-size:26px;
+}
+h5 {
+    font-size:20px;
+}
+h6 {
+    font-size:16px;
+} 
+#main-menu
+{                                                                    
+    top:95px;
+    height:auto;
+}
+#sub-menu
+{
+    left:0px;
+    height:auto;
+}
+#sub-menu ul
+{
+    background-color:#000;
+}                                                     
+nav ul
+{
+    padding-left:10px;
+}
+.slider_next{
+	bottom:10px;
+    right:10px;
+}
+.slider_prev{
+	bottom:90px;
+    right:10px;
+}
+.slider_content{
+	bottom:10px;
+	left:10px;
+    padding:10px;
+}
+#mobile-menu
+{
+   display:block;
+}
+#main-menu, #sub-menu
+{
+   display:none;
+}                                                   
+.grid li {
+    margin-bottom:20px;
+}                                                  
+}
+@media only screen and (max-width:480px) 
+{
+.left-gallery
+{
+    width:100%;
+    margin-bottom:20px;
+}
+.right-gallery
+{
+    width:100%;
+    float:left;
+} 
+h1 {
+    font-size:34px;
+}
+h2 {
+    font-size:26px;
+}
+h3 {
+    font-size:22px;
+}
+h4 {
+    font-size:18px;
+}
+h5 {
+    font-size:15px;
+}
+h6 {
+    font-size:13px;
+} 
+p {
+    font-size:12px;
+}
+.grid figcaption {
+    font-size:10px;
+}
+.grid figcaption a {
+    font-size:12px;
+}
+.accordion-header {
+    font-size:16px;
+}                                                                   
+.active-header {
+    font-size:20px;
+}
+.grid figcaption span {
+    display:none;
+}
+.tagsicon, .usericon, .categoryicon{
+    display:none;
+}
+.dateicon {
+    background-image: none;
+    padding-left: 0px;
+    font-size:14px;
+} 
+.da-thumbs {
+	width:100%;
+}                                                                     
+.da-thumbs li {
+	width:50%;
+}                                                                    
+}
+@media only screen and (max-height:320px) 
+{
+header
+{
+    width:80px;
+}
+header img
+{
+    max-height:55px;
+}
+#mobile-menu
+{
+    height:55px;
+    line-height:55px;
+    padding-left:90px; 
+    font-size:16px;                                                                                        
+}                                                                                    
+#main-menu
+{
+    top:55px;
+    left:0px;
+    font-size:12px;                                                                                    
+}
+#sub-menu
+{
+    font-size:12px;                                                                                    
+}
+.slider_content{
+    display:none !important;                                                                                    
+} 
+.content
+{
+    padding-top:90px;
+} 
+.grid figcaption span {
+    display:none;
+}
+.da-thumbs {
+	width:100%;
+}                                                                                     
+.da-thumbs li {
+	width:100%;
+}                                                                                      
+}                                                                                    

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Help Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Ivor">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <style type="text/css">
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+</style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    </head>
+    
+<body data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"> 
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+	<a class="brand" href="#">TATTOO STUDIO</a>
+     	<div class="nav-collapse">
+        <ul class="nav">
+              <li><a href="#top" class="active">Top</a></li>
+              <li><a href="#markup">Markup</a></li>
+              <li><a href="#styles">Styles</a></li>
+              <li><a href="#javascript">JavaScript</a></li>
+              <li><a href="#credits">Credits</a></li>
+              <li><a href="http://themeforest.net/user/egemenerd" target="_blank">Contact me</a></li>
+          </ul>
+</div>
+	</div>
+		</div>
+			</div> <!-- End of Navbar -->
+
+<!-- Main Container Beginning -->			
+			
+<div class="container">
+    
+	<div class="masthead">
+	    <h1>Help Documentation</h1>
+	</div> <!-- masthead -->
+	
+   <div id="intro">
+    <p class="highlight hero-unit">Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/egemenerd" target="_blank">here</a>. Thanks so much!</p>
+  </div> <!-- intro -->
+      
+<section id="markup">
+	<div class="page-header">
+	  <h1>Markup</h1>
+	</div>
+    <div class="row">
+      <div class="span3">
+        <h3>General Markup</h3>
+        <p>Here is the general structure.</p>
+      </div>
+
+<div class="span9">
+
+
+    
+<pre class="prettyprint">
+<body>
+<header>
+<!-- LOGO -->
+</header>
+<a id="mobile-menu" href="#">Menu</a>
+<nav id="main-menu">
+<!-- MAIN MENU -->
+</nav>
+<nav id="sub-menu">
+<!-- SUB MENU -->
+</nav>
+<section id="ascensorBuilding">
+<!-- Pages -->
+<article>...</article>
+<article>...</article>
+<article>...</article>
+...
+</section>
+</body>
+</pre>
+    
+    
+    
+    
+      </div>
+        </div>
+
+    <hr />
+<div class="row">
+    <div class="span3">
+  <h3>How To Edit Color</h3>
+  <p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+</div>
+
+<div class="span9">
+<pre class="prettyprint">
+h1 {
+   color: #someColor;
+}
+</pre>
+      </div>
+        </div>
+
+    <hr />
+
+<div class="row">
+    <div class="span3">
+  <h3>Change Structure</h3>
+  <p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
+</div>
+
+<div class="span9">
+<pre class="prettyprint">
+h1 {
+   color: #someColor;
+}
+</pre>
+      </div>
+        </div>    
+    <hr />  
+    
+<div class="row">
+    <div class="span3">
+  <h3>How To Add New Page to the index.html file</h3>
+  <p>If you want to add a new page to the index.html file you should use article tag. Every article tag means a new page. You should also add a new link to your main navigation. These ascensor link CLASSES are created automatically by page order. Please look at the example code. As you can see I added a new page after "About Us" page. So after "About Us" page link, other "ascensorLink" classes must be change because of new page order. </p>
+</div>
+
+<div class="span9">
+<pre class="prettyprint">
+<nav id="main-menu">
+<ul>
+<li>
+<a class="ascensorLink ascensorLink0">Home</a>
+</li>
+<li>
+<a class="ascensorLink ascensorLink1">About Us</a>
+</li>
+<li>
+<a class="ascensorLink ascensorLink2">NEW PAGE</a>
+</li>
+<li>
+<a class="ascensorLink ascensorLink3">Artists</a>
+</li>
+<li>
+<a class="ascensorLink ascensorLink4">Faq</a>
+</li>
+<li>
+<a class="ascensorLink ascensorLink5">Contact</a>
+</li>
+ </ul>
+</nav>
+<section id="ascensorBuilding">
+<!-- Pages -->
+<article>SLIDER</article>
+<article>ABOUT ME PAGE</article>
+<article>NEW PAGE</article>
+<article>ARTISTS</article>
+<article>FAQ</article>
+<article>CONTACT</article>
+</section>
+</pre>    
+      </div>
+        </div>  
+
+  </section> <!-- Markup -->
+      
+
+<section id="styles">
+    <div class="page-header">
+       <h1>Styles</h1>
+     </div>
+
+<div class="row">
+    <div class="span3">
+  <h3>Stylesheets</h3>
+  <p>Here's a list of the stylesheet files I'm using with this template, you can find more information opening each file: </p>
+</div>
+<div class="span9">
+        <table class="table table-bordered table-striped">
+              <thead>
+            <tr>
+                  <th>File Name</th>
+                  <th>Description</th>
+                </tr>
+          </thead>
+              <tbody>
+            <tr>
+                  <td><code>style.css</code></td>
+                  <td>Contains all of the specific stylings for the template such as colors, heights, widths, margins, paddings etc.</td>
+                </tr>
+           <tr>
+                  <td><code>normalize.css</code></td>
+                  <td>HTML5 display definitions</td>
+                </tr>
+                <tr>
+                  <td><code>animate.css</code></td>
+                  <td>Contains CSS3 animations</td>
+                </tr>
+                <tr>
+                  <td><code>media.css</code></td>
+                  <td>Contains some definitions for responsive design</td>
+                </tr>
+                  <tr>
+                  <td><code>lightgallery.css</code></td>
+                  <td>Light Gallery plugin stylings</td>
+                </tr>
+           <tr>
+                  <td><code>swipebox.css</code></td>
+                  <td>Contains Jquery swipebox plugin stylings</td>
+                </tr>
+          </tbody>
+            </table>
+      </div>
+        </div>
+    <hr />
+  </section>
+      <!-- Styles -->
+      
+      <section id="javascript">
+	<div class="page-header">
+	  <h1>JavaScript</h1>
+	</div>
+	<div class="row">
+	  <div class="span3">
+	    <h3>JavaScript Files</h3>
+  <p>Here's a list of the javascript files I'm using with this template, you can find more information at plugin's official web site:</p>
+	  </div>
+	  <div class="span9">
+	    <table class="table table-bordered table-striped">
+	      <thead>
+	        <tr>
+	          <th>Tag</th>
+	          <th>Description</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+	        <tr>
+	          <td><code>jquery.js</code></td>
+	          <td>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</td>
+	        </tr>
+            <tr>
+	          <td><code>backstretch.min.js</code></td>
+	          <td>Jquery responsive background image plugin</td>
+	        </tr>
+            <tr>
+	          <td><code>googlemap.js</code></td>
+	          <td>Custom Google Map Api scripts</td>
+	        </tr>
+             <tr>
+	          <td><code>jquery.ascensor.js</code></td>
+	          <td>Ascensor is a jquery plugin which aims to train and adapt content according to an elevator system</td>
+	        </tr>
+            <tr>
+	          <td><code>jquery.swipebox.min.js</code></td>
+	          <td>A touchable jQuery lightbox plugin</td>
+	        </tr>
+            <tr>
+	          <td><code>slider.js</code></td>
+	          <td>Contains homepage slider scripts</td>
+	        </tr>
+              <tr>
+	          <td><code>lightgallery.min.js</code></td>
+	          <td>Responsive gallery plugin</td>
+	        </tr>
+            <tr>
+	          <td><code>stellar.js</code></td>
+	          <td>Stellar.js is a jQuery plugin that provides parallax scrolling effects to any scrolling element</td>
+	        </tr>
+            <tr>
+	          <td><code>toucheffects.js</code></td>
+	          <td>Contains image hover effects for touchscreen.</td>
+	        </tr>
+            <tr>
+	          <td><code>modernizr.custom.js</code></td>
+	          <td>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</td>
+	        </tr>
+            <tr>
+	          <td><code>custom.js</code></td>
+	          <td>Contains custom scripts for homepage</td>
+	        </tr>
+              <tr>
+	          <td><code>custom2.js</code></td>
+	          <td>Contains custom scripts for inner pages</td>
+	        </tr>
+	      </tbody>
+	    </table>
+	  </div>
+	</div>
+	<hr />
+	<div class="row">
+	<div class="span3">
+	  <h3>How To Change the Contact Forms Recipient E-mail</h3>
+	  <p>If you want to change the Recipient E-mail, open up the <code> processForm.php </code> file and change the following code: </p>
+	</div>
+<div class="span9">
+<pre class="prettyprint js linenums:4">
+define( &quot;RECIPIENT_NAME&quot;, &quot;YOUR NAME&quot; ); 
+define( &quot;RECIPIENT_EMAIL&quot;, &quot;YOUR MAIL&quot; );
+</pre>
+<pre class="prettyprint js linenums:4">
+define( &quot;RECIPIENT_NAME&quot;, &quot;egemenerd&quot; ); 
+define( &quot;RECIPIENT_EMAIL&quot;, &quot;yourmail@mail.com&quot; );
+</pre>    
+      </div>
+        </div>
+        	<hr />
+	<div class="row">
+	<div class="span3">
+	  <h3>How To Change Background Images</h3>
+	  <p>If you want to change the page background images,openup custom.js (for index.html) and custom2.js (for blog.html,single.html) files and change the following codes. <br/><br/><strong>custom.js</strong>: If you don’t change order of the pages or delete any page, “ascensorFloor1” is the about pages id, “ascensorFloor2” is the artists pages id and “ascensorFloor3” is the faq pages id. For example if you delete artists page content in index.html file (article tags and their contents), faq pages new id will be “ascensorFloor2”. For more information you can visit Ascensor plugin page; http://kirkas.ch/ascensor/ </p>
+	</div>
+<div class="span9">
+<pre class="prettyprint js linenums:19">
+$(document).ready(function() {
+    "use strict";   
+    $('#ascensorFloor1').backstretch("images/slide.jpg");
+    $('#ascensorFloor2').backstretch("images/slide.jpg");
+    $('#ascensorFloor3').backstretch("images/slide.jpg");
+});
+</pre>
+<pre class="prettyprint js linenums:3">
+$(document).ready(function() {
+    "use strict"; 
+    $('body').backstretch("images/slide.jpg");
+});
+</pre>    
+      </div>
+        </div>
+	<hr />
+     <div class="row">
+                <div class="span12">
+                    <h3>How To Use Google Map</h3>
+                    <p>Usage of the Google Maps APIs requires a key.</p>
+                    <p>1. Follow <a href="https://developers.google.com/maps/documentation/javascript/get-api-key#get-an-api-key" target="_blank">this link</a> and click on Get a key:</p>
+                    <p>
+                        <img src="images/map1.jpg" />
+                    </p>
+                    <p>2. Agree with the service Terms of Service:</p>
+                    <p>
+                        <img src="images/map2.jpg" />
+                    </p>
+                    <p>3. Choose a name for your new key and specify the websites on which the key usage will be allowed. If you don’t need any website restriction, just put an * in that field (but don’t leave it blank, unless you are having issues with *! See comments for further information). Then click on Create:</p>
+                    <p>
+                        <img src="images/map3.jpg" />
+                    </p>
+                    <p>4. Write down your brand new API key, and click OK:</p>
+                    <p>
+                        <img src="images/map4.jpg" />
+                    </p>
+                    <p>5. Open index.html file and find the following code:</p>
+                    <pre class="prettyprint js linenums:18">
+&lt;script type="text/javascript" src="http://maps.google.com/maps/api/js?key=YOUR_API_KEY"&gt;&lt;/script&gt;</pre>
+                    <p>6. Change the "YOUR_API_KEY" with your API key like the following:</p>
+                    <pre class="prettyprint js linenums:18">
+&lt;script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyChY8HKaF8KKvi69hM2lUXRZlG9xBXwvGg"&gt;&lt;/script&gt;</pre>
+                    <p>7. Your API key should be up and running within 5 minutes.</p>
+                </div>
+            </div>
+                <hr />     
+	<div class="row">
+	<div class="span3">
+	  <h3>How To Change Google Maps Marker Point</h3>
+	  <p>Openup googlemap.js file and change the following coordinates; <a href="http://mondeca.com/index.php/en/any-place-en">Find your coordinates</a></p>
+	</div>
+<div class="span9">
+<pre class="prettyprint js linenums:18">
+var latlng = new google.maps.LatLng(40.714353, -74.005973);
+</pre>   
+      </div>
+        </div>
+	<hr />          
+          
+	<div class="row">
+	<div class="span12">
+	  <h3>How To Edit Gallery images</h3>
+	  <p>You can create galleries on the homepage using javascript. As you can see at the bottom of the index.html file, there are some example galleries. You can edit them or create new ones with using the same structure. For more details please visit the plugin official page;</p>
+        <p><a href="http://sachinchoolur.github.io/lightGallery">Lightgallery</a></p>
+	</div>
+        </div>
+</section><!-- JavaScript -->
+
+	<section id="credits">
+	  <div class="page-header">
+	    <h1>Credits Files</h1>
+	  </div>
+	  <p>I've used the following scripts and other files as listed.</p>
+	  <h3>JavaScript</h3>
+	  <ol>
+	    <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+         <li><a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">jQuery Backstretch</a></li>
+          <li><a href="http://modernizr.com/" target="_blank">Modernizr</a></li>
+          <li><a href="http://kirkas.ch/ascensor/" target="_blank">jQuery Ascensor</a></li>
+          <li><a href="http://brutaldesign.github.io/swipebox/" target="_blank">Swipebox</a></li>
+          <li><a href="http://markdalgleish.com/projects/stellar.js/" target="_blank">Stellar</a></li>
+          <li><a href="http://sachinchoolur.github.io/lightGallery" target="_blank">Light Gallery</a></li>
+	  </ol>
+      <h3>CSS</h3>
+	  <ol>
+	    <li><a href="http://daneden.me/animate/" target="_blank">Animate</a></li>
+	  </ol>
+      <h3>Font</h3>
+	  <ol>
+	    <li><a href="http://www.google.com/fonts/specimen/Oswald" target="_blank">Oswald</a></li>
+        <li><a href="http://www.google.com/fonts/specimen/Open+Sans" target="_blank">Open Sans</a></li>
+          <li><a href="http://www.fonts2u.com/proclamate-heavy-heavy.font" target="_blank">Proclamate Heavy (Logo)</a></li>
+	  </ol>
+      <h3>Documentation File Template</h3>
+	  <ol>
+	    <li><a href="http://themeforest.net/user/Ivor" target="_blank">Ivor</a></li>
+	  </ol>
+      <h3>Demo Images</h3>
+	  <ol>
+	    <li><a href="http://www.flickr.com/photos/harvie-krumpet/with/3627405241/" target="_blank">Flickr</a></li>
+	  </ol>
+
+
+	</section><!-- Credits -->
+
+
+      <hr />
+
+<div class="goodbye">
+    <p>Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+  </div>
+
+      <hr />
+
+<footer>
+    <p>&copy; Egemenerd 2013</p>
+</footer>
+
+</div><!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-transition.js"></script> 
+<script src="assets/js/bootstrap-alert.js"></script> 
+<script src="assets/js/bootstrap-modal.js"></script> 
+<script src="assets/js/bootstrap-dropdown.js"></script> 
+<script src="assets/js/bootstrap-scrollspy.js"></script> 
+<script src="assets/js/bootstrap-tab.js"></script> 
+<script src="assets/js/bootstrap-tooltip.js"></script> 
+<script src="assets/js/bootstrap-popover.js"></script> 
+<script src="assets/js/bootstrap-button.js"></script> 
+<script src="assets/js/bootstrap-collapse.js"></script>
+</body>
+</html>

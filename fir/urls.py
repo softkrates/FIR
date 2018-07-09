@@ -15,8 +15,10 @@ urlpatterns = [
     url(r'^ajax/', include('incidents.custom_urls.ajax', namespace='ajax')),
     url(r'^user/', include('incidents.custom_urls.user', namespace='user')),
     url(r'^dashboard/', include('incidents.custom_urls.dashboard', namespace='dashboard')),
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', views.dashboard_main),
+    url(r'^admin/', include(admin.site.urls)),    
+    url(r'^dash/$', views.dashboard_main),
+    
+    url(r'^$', include('webapp.urls', namespace='web')),
 ]
 
 if TF_INSTALLED:

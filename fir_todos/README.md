@@ -6,7 +6,10 @@ Follow the generic plugin installation instructions in [the FIR wiki](https://gi
 
 Using the `fir_todos` plugin is pretty straightforward.
 
-* To **create** a task, open an incident and click `Add`, then `Todo`. Specify an action to be done, and an accountable party (you may select the "CERT" business line for tasks atrributed to you). To save the changes, click on the `+` sign at the end of the line.
+* To **create** a task, open an incident and click `Add`, then `Todo`. Specify an action to be done,
+
+ and an accountable party (you may select the "CERT" business line for tasks atrributed to you). 
+ To save the changes, click on the `+` sign at the end of the line.
 
 * **Remove** a task by clicking on the cross sign on the corresponding line.
 
